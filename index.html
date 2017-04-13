@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Splat the Ant</title>
+        <script src="jquery-3.2.0.js"></script>
+        <script src="Lab1.js"></script>
+        <link rel="stylesheet" href="week1.css">
+    </head>
+    <body>
+    <h1>Splatter the Ants!</h1>
+    <h3>Too many ants in your house? Take out your aggression here!</h3>
+        <table id="pick">
+          <tr>
+              <th>How many ants?</th>
+              <td><input type="text" id="userInput"></input></td>
+          </tr>
+          <tr>
+              <td></td>
+              <td><input type="button" value="Start" onclick="startGame();"></input></td>
+          </tr>
+        </table>
+        <span>Splatter Count: </span><span id="count"></span>
+        <br>
+        <span>Splatter Percent: </span><span id="percent"></span>
+        <div id="board"></div>
+    </body>
+</html>
