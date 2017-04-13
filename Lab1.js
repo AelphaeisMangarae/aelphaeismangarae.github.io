@@ -1,8 +1,8 @@
 /**
  * Created by Joshua on 4/4/17.
  */
-var ANT_PATH = 'images/ant.png';
-var SPLAT_PATH = 'images/splat.png';
+var ANT_PATH = 'ant.png';
+var SPLAT_PATH = 'splat.png';
 
 var SPLATTER_COUNT = 0;
 var EXECUTED;
