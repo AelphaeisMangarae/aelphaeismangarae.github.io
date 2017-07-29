@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Joshua Hughes 2017</title>
+    <!--Testing
+      Author: Joshua Hughes
+      Date: July 29, 2017-->
         <meta charset="UTF-8">
-        <title>Splat the Ant</title>
+        <link rel="stylesheet" href="JoshuaHughesStyle.css" type="text/css">
+        <script src="clickerFunctions.js"></script>
+        <script src="antScript.js"></script>
         <script src="jquery-3.2.0.js"></script>
-        <script src="Lab1.js"></script>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-102610001-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-        <link rel="stylesheet" href="week1.css">
     </head>
     <body>
-    <h1>Splatter the Ants!</h1>
-    <h3>Too many ants in your house? Take out your aggression here!</h3>
-        <table id="pick">
-          <tr>
-              <th>How many ants?</th>
-              <td><input type="text" id="userInput"></input></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td><input type="button" value="Start" onclick="startGame();"></input></td>
-          </tr>
-        </table>
-        <span>Splatter Count: </span><span id="count"></span>
-        <br>
-        <span>Splatter Percent: </span><span id="percent"></span>
-        <div id="board"></div>
+    <p class="skipnavigation"><a href="#textarea1">Skip navigation</a></p>
+    <div class="bigcontainer">
+    <div class="container">
+            <div id="header">
+                <h1>Joshua Hughes</h1>
+            </div>
+            <nav class="sitenavigation">
+                <ul>
+                    <li onclick=showBio()>Bio</li>
+                    <li onclick=showGame()>Play</li>
+                    <li onclick=showContact()>Contact</li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div id="textarea1">
+                <p>Hi! Welcome to my page. It is a work in progress... so please, pardon the dust.</p>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; Joshua Hughes, 2017</p>
+            </footer>
+        </div>
+    </div>
     </body>
 </html>
