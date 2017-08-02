@@ -78,6 +78,12 @@ function splatter(el) {
         checkWin()
     }
 }
+function restartGame() {
+    EXECUTED = false;
+    SPLATTER_COUNT = 0;
+
+    showGame();
+}
 
 
 window.addEventListener("onclick",startGame);
