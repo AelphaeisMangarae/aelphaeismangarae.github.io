@@ -31,6 +31,7 @@ function showGame() {
         "<span>Splatter Count: </span><span id='count'></span>" +
         "<br>" +
         "<span>Splatter Percent: </span><span id='percent'></span>" +
+            "<br><br><input type='button' value='restart' onclick='restartGame();'> </input>" +
         "<div id='board'></div>";
 }
 function redirect()
