@@ -4,13 +4,13 @@
 
 function showContact() {
     document.getElementById("textarea1").innerHTML =
-        "<h3>Email:</h3><h3 onclick='redirect()'>Joshua.Hughes08@Gmail.com</h3><br>";
+       
 
 }
 
 function showBio() {
     document.getElementById("textarea1").innerHTML =
-        "<p> Born and raised in Oregon, Josh currently resides in Portland, Oregon with his wife Samm Saxby. </p>" +
+        "<p> Born and raised in Oregon, Josh currently resides in Portland, Oregon with his wife Samm. </p>" +
         "<p>Together they write things, watch things, and fix things.</p>";
 
 }
