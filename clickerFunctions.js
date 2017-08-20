@@ -36,5 +36,5 @@ function showGame() {
 }
 function redirect()
 {
-    window.location.href = "mailto:Joshua.Hughes08@gmail.com";
+    window.location.href = "";
 }
