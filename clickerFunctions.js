@@ -10,7 +10,7 @@ function showContact() {
 
 function showBio() {
     document.getElementById("textarea1").innerHTML =
-        "<p> Born and raised in Oregon, Josh currently resides in Portland, Oregon with his wife Samm. </p>" +
+        "<p> Born and raised in Oregon. </p>" +
         "<p>Together they write things, watch things, and fix things.</p>";
 
 }
