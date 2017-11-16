@@ -3,7 +3,7 @@
  */
 
 function showContact() {
-    document.getElementById("textarea1").innerHTML =
+    document.getElementById("textarea1").innerHTML = "<p> hi </p>"
        
 
 }
