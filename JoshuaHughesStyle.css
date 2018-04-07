@@ -65,23 +65,24 @@ p {
 h1 {
     font-family: Garamond, Times, serif;
     padding: 1em;
-    color: black;
+    color: white;
     text-align: center;
     text-shadow: 2px 2px 3px #565656;
 }
 h2 {
     font-family: Garamond, Times, serif;
     padding: 0.4em 0.6em;
-    color: black;
+    color: white;
 }
 h2, h3:hover {
     cursor: pointer;
     color: indianred;
+    text-shadow: 2px 2px 3px #565656;
 }
 h3 {
     font-family: Garamond, Times, serif;
      padding: 0.4em 0.6em;
-     color: black;
+     color: white;
  }
 
 
