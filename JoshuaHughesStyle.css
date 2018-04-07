@@ -1,5 +1,5 @@
 /*
-   Author: Joshua Hughes
+   Author: JH
    Date: January 28, 2017
  */
 /* reset styles */
@@ -96,7 +96,7 @@ nav.sitenavigation li {
     display: inline-block;
     font-size: 1.3em;
     line-height: 1.4em;
-    color: Black;
+    color: white;
     text-shadow: 2px 2px 3px #565656;
 }
 nav.sitenavigation li:hover {
@@ -125,11 +125,11 @@ nav.sitenavigation a:hover, nav.sitenavigation a:focus {
 dt {
     font-size: 2em;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 dd {
     font-size: 2em;
-    color: black;
+    color: white;
 }
 
 /* footer section */
