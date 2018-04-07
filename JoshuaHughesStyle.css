@@ -12,6 +12,10 @@ tfoot, th, thead, tr, ul, li, ol, dd, dl, dt {
 }
 /* body and page container */
 
+body {
+   background: #111111;
+}
+
 .bigcontainer {
     width: 1000px;
     height: 800px;
