@@ -17,7 +17,7 @@ tfoot, th, thead, tr, ul, li, ol, dd, dl, dt {
     height: 800px;
     margin-right: auto;
     margin-left: auto;
-
+    background:#111111;
     background-image: url("");
 }
 #container {
